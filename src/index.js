@@ -54,9 +54,10 @@ function Repo({ repo = {} }) {
       <Accordion
         sx={{
           backgroundColor: "success.main",
-          boxShadow: 1,
-          mr: 10,
-          ml: 2,
+        
+          borderRadius:2,
+        
+         
         }}
       >
         <Box
