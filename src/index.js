@@ -117,7 +117,7 @@ const App = observer(({ asyncOp }) => (
     <div style={{ width: "450px" }}>
       <h2>
         {" "}
-        {"\u2728"} Theodore Github Details {"\u2728"}
+        {"\u2728"} Theodore's Github Details {"\u2728"}
       </h2>
       <div>
         {asyncOp.loading ? (
