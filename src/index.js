@@ -89,7 +89,7 @@ function Repo({ repo = {} }) {
           </Paper>
         </Box>
         <AccordionDetails>
-          <Typography>
+          <Typography  style={{ color: "white"}}>
             <div>Created on : {repo.created_at}</div>
             <div>Last Update on : {repo.updated_at}</div>
             <div>Scripting Language Used : {repo.language}</div>
